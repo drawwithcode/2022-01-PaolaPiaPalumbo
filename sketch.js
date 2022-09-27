@@ -60,7 +60,7 @@ function draw() {
   ellipse ((frameCount*8), 60*cos(frameCount*8)-250, 350);
   pop();
 
-  //spirale arancio centrale
+  //spirale arancio
   push();
   noFill()
   let mycolor6 = lerpColor (color ("orange"), color ("white"), frameCount/500);
